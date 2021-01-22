@@ -27,6 +27,7 @@ public class App
  
 	public static void main(String[] args) {
 		try {
+			//添加配置
 			Document doc = Jsoup.connect("https://www.csdn.net/").get();
 //			System.out.println(doc.title()); //CSDN-专业IT技术社区
 			//把文章标题和连接写入txt文件
